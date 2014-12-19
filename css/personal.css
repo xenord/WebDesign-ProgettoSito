@@ -59,13 +59,13 @@
     #navigazione-contestuale {
         width: 0;
     }
+
 }
 
 @media (max-width: 768px) {
     #navigazione-contestuale, #myCarousel, #slideshow {
         display: none;
     }
-
 }
 
 .img-galleria {
