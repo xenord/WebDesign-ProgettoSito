@@ -43,7 +43,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Località<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="pagine/veneto.html">Veneto</a></li>
+                    <li><a href="pagine/localita/veneto.html">Veneto</a></li>
                     <li><a href="#">Trentino Alto-Adige</a></li>
                     <li><a href="#">Friuli Venezia Giulia</a></li>
                     <li><a href="#">Valle d'Aosta</a></li>
@@ -82,10 +82,10 @@
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Attrazioni Naturali</a></li>
                     <li><a href="#">Gastronomia</a></li>
-                    <li><a href="#">Sport</a></li>
+                    <li><a href="pagine/attivita/sport.html">Sport</a></li>
                     <li><a href="#">Mare</a></li>
-                    <li><a href="#">Montagna</a></li>
-                    <li><a href="#">Lago</a></li>
+                    <li><a href="pagine/attivita/montagna.html">Montagna</a></li>
+                    <li><a href="pagine/attivita/lago.html">Lago</a></li>
                     <li><a href="#">Tempo Libero</a></li>
                 </ul>
             </li>
@@ -125,57 +125,6 @@
 
             <!-- Fotogallery -->
             <li><a href="#">Fotogallery</a></li>
-
-            <!-- Contatti -->
-            <li><a data-toggle="modal" data-target="#contatti">Contatti</a></li>
-            <!-- Modulo Contatti -->
-            <div class="modal fade" id="contatti" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                 aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                            <h4 class="modal-title">Contatti</h4>
-                        </div>
-                        <div class="modal-body">
-                            <form role="form">
-                                <!-- Nome -->
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="sNome" placeholder="Nome">
-                                        <label for="uLogin"
-                                               class="input-group-addon glyphicon glyphicon-user"></label>
-                                    </div>
-                                </div>
-
-                                <!-- Cognome -->
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="sEmail"
-                                               placeholder="Inserisci la tua Email">
-                                        <label for="uPassword"
-                                               class="input-group-addon glyphicon glyphicon-bookmark"></label>
-                                    </div>
-                                </div>
-
-                                <!-- Messaggio -->
-                                <div class="form-group">
-                                    <label class="col-md-3 control-label" for="message">Messaggio</label>
-
-                                    <div class="col-md-9">
-                                <textarea class="form-control" id="message" name="message"
-                                          placeholder="Inserisci qui il tuo messaggio" rows="5"></textarea>
-                                    </div>
-                                </div>
-
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button class="form-control btn btn-primary">Invia</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <!-- Login -->
             <li><a data-toggle="modal" data-target="#myModal">Login</a></li>
@@ -305,6 +254,7 @@
 
 </nav>
 
+
 <!-- Carosello -->
 <div id="myCarousel" class="carousel slide">
     <!-- indicatori -->
@@ -377,7 +327,58 @@
         <hr class="featurette-divider">
         <p class="pull-right"><a href="homepage.html">Top</a></p>
 
-        <p>© 2014, Delta Team</p>
+        <p>© 2014, Delta Team <a data-toggle="modal" data-target="#contatti">Contatti</a></p>
+
+        <!-- Contatti -->
+        <!-- Modulo Contatti -->
+        <div class="modal fade" id="contatti" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">Contatti</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <!-- Nome -->
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="sNome" placeholder="Nome">
+                                    <label for="uLogin"
+                                           class="input-group-addon glyphicon glyphicon-user"></label>
+                                </div>
+                            </div>
+
+                            <!-- Cognome -->
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="sEmail"
+                                           placeholder="Inserisci la tua Email">
+                                    <label for="uPassword"
+                                           class="input-group-addon glyphicon glyphicon-bookmark"></label>
+                                </div>
+                            </div>
+
+                            <!-- Messaggio -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="message">Messaggio</label>
+
+                                <div class="col-md-9">
+                                <textarea class="form-control" id="message" name="message"
+                                          placeholder="Inserisci qui il tuo messaggio" rows="5"></textarea>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="form-control btn btn-primary">Invia</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </footer>
 </div>
 

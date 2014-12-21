@@ -148,13 +148,52 @@ p {
 }
 
 .navbar-contestuale {
-    background-color: rgba(207, 206, 209, 0.71);
+    padding-left: 40px;
+}
 
-}
 .navbar-testo {
-    background-color: rgba(107, 112, 104, 0.58);
+    background-color: rgba(54, 59, 51, 0.58);
 }
+
 .text-white {
     background-color: #f5f5f5;
 }
+
+.sottomenu {
+    margin-left: 40px;
+}
+
+.panel-body > h1, h2, h3, h4, h5 {
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
