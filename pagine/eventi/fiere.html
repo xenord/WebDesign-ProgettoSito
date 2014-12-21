@@ -1,22 +1,14 @@
-<!DOCTYPE html>
 <html lang="it">
-
-<!-- Meta e CSS -->
 <head>
-    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-          content="Prototipo di sito turistico 'le bellezze del nord italia', come esempio di sito per l'esercitazione del corso di Web Design">
+    <title>Sito turistico - Eventi</title>
+    <meta name="description" content="Sito turistico sulle alpi del nord-est Italia">
     <meta name="author" content="DeltaTeam">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/personal.css">
-    <!-- Titolo -->
-    <title>Prototipo di sito turistico</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/personal.css">
 </head>
-
 <body>
 
 <!-- Menu di navigazione -->
@@ -32,7 +24,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="homepage.html">Delta Team</a>
+        <a class="navbar-brand" href="../../homepage.html">Delta Team</a>
     </div>
 
     <!-- MENU DI NAVIGAZIONE Desktop-->
@@ -43,7 +35,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Località<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="pagine/localita/veneto.html">Veneto</a></li>
+                    <li><a href="../localita/veneto.html">Veneto</a></li>
                     <li><a href="#">Trentino Alto-Adige</a></li>
                     <li><a href="#">Friuli Venezia Giulia</a></li>
                     <li><a href="#">Valle d'Aosta</a></li>
@@ -57,7 +49,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alloggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="pagine/hotel/hotel.html">Hotel</a></li>
+                    <li><a href="#">Hotel</a></li>
                     <li><a href="#">Campeggi</a></li>
                     <li><a href="#">Appartamenti</a></li>
                     <li><a href="#">Offerte Speciali</a></li>
@@ -82,10 +74,10 @@
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Attrazioni Naturali</a></li>
                     <li><a href="#">Gastronomia</a></li>
-                    <li><a href="pagine/attivita/sport.html">Sport</a></li>
+                    <li><a href="../attivita/sport.html">Sport</a></li>
                     <li><a href="#">Mare</a></li>
-                    <li><a href="pagine/attivita/montagna.html">Montagna</a></li>
-                    <li><a href="pagine/attivita/lago.html">Lago</a></li>
+                    <li><a href="../attivita/montagna.html">Montagna</a></li>
+                    <li><a href="../attivita/lago.html">Lago</a></li>
                     <li><a href="#">Tempo Libero</a></li>
                 </ul>
             </li>
@@ -117,14 +109,14 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Eventi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="pagine/eventi/manifestazioni.html">Manifestazioni</a></li>
-                    <li><a href="pagine/eventi/mostre.html">Mostre</a></li>
-                    <li><a href="pagine/eventi/fiere.html">Fiere</a></li>
+                    <li><a href="#">Manifestazioni</a></li>
+                    <li><a href="#">Mostre</a></li>
+                    <li><a href="#">Fiere</a></li>
                 </ul>
             </li>
 
             <!-- Fotogallery -->
-            <li><a href="pagine/fotogallery.html">Fotogallery</a></li>
+            <li><a href="#">Fotogallery</a></li>
 
             <!-- Login -->
             <li><a data-toggle="modal" data-target="#myModal">Login</a></li>
@@ -246,8 +238,7 @@
                     <input type="text" class="form-control" placeholder="Cerca">
                 </div>
                 <!-- Pulsante di ricerca -->
-                <button type="submit" class="btn btn-default"><a href="pagine/risultati-ricerca.html">Ricerca</a>
-                </button>
+                <button type="submit" class="btn btn-default">Ricerca</button>
             </form>
         </ul>
 
@@ -256,69 +247,143 @@
 </nav>
 
 
-<!-- Carosello -->
-<div id="myCarousel" class="carousel slide">
-    <!-- indicatori -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
-
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="http://placehold.it/1920x500" alt="Welcome">
-        </div>
-        <div class="item">
-            <img src="http://placehold.it/1920x500" alt="Second slide">
-        </div>
-    </div>
-    <!-- Pulsanti -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span
-            class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span
-            class="glyphicon glyphicon-chevron-right"></span></a>
-</div>
-
-<!-- In Evidenza -->
+<!-- PATH -->
 <div class="container">
-    <div class="row in-evidenza">
-        <img class="img-responsive" src="http://placehold.it/1920x500" alt="Welcome">
-    </div>
+    <ol class="breadcrumb">
+        <li><a href="../../homepage.html">Homepage</a></li>
+        <li class="active">Fiere</li>
+    </ol>
 </div>
 
-<!-- Widget organizza vacanza e Shortcat fotogallery slideshow di immagini -->
-<div class="container widget-slideshow">
-    <div class="row">
-        <!-- Widget organizza la tua vacanza -->
-        <div class="col-lg-6">
-            <img src="http://placehold.it/512x512">
-        </div>
+<!-- Menu di navigazione Contestuale e CONTENUTO PAGINA -->
+<div class="col-lg-12 col-md-12 col-sm-12">
+    <!-- Menu di navigazione Contestuale -->
+    <div class="navbar-contestuale col-lg-3 col-md-3 col-sm-3">
+        <!-- Lista generale -->
+        <ul class="navbar navbar-text nav">
+            <li>
+                <a href="manifestazioni.html" class="text-white navbar-testo">Manifestazioni</a>
+            </li>
 
-        <!-- Slideshow di immagini -->
-        <div class="col-lg-6">
-            <!-- Slideshow -->
-            <div id="slideshow" class="carousel slide">
-                <!-- indicatori -->
-                <ol class="carousel-indicators">
-                    <li data-target="#slideshow" data-slide-to="0" class="active"></li>
-                    <li data-target="#slideshow" data-slide-to="1"></li>
-                </ol>
+            <li>
+                <a href="mostre.html" class="text-white navbar-testo ">Mostre</a>
+            </li>
+            <li>
+                <a href="fiere.html" class="text-white navbar-testo ">Fiere</a>
+            </li>
+        </ul>
+    </div>
 
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="http://placehold.it/512x512" alt="Welcome">
-                    </div>
-                    <div class="item">
-                        <img src="http://placehold.it/512x512" alt="Second slide">
-                    </div>
+    <!-- PANNELLO E TAG CLOUD CONTENUTO PAGINA -->
+    <div class="contenuto-pagina text-right col-lg-9 col-md-9 col-sm-9">
+        <div class="col-lg-9 col-md-9">
+            <!-- PANNELLO EVENTI 1 -->
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Event1</h3>
                 </div>
-                <!-- Pulsanti -->
-                <a class="left carousel-control" href="#slideshow" role="button" data-slide="prev"><span
-                        class="glyphicon glyphicon-chevron-left"></span></a>
-                <a class="right carousel-control" href="#slideshow" role="button" data-slide="next"><span
-                        class="glyphicon glyphicon-chevron-right"></span></a>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere
+                turpis
+                placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique
+                senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies.
+                Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque
+                habitant
+                morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque lobortis, nunc eget
+                tincidunt interdum, quam magna facilisis metus, ut lobortis dolor turpis cursus velit. Nam semper nunc
+                sit
+                amet est elementum, vitae commodo nunc euismod. Class aptent taciti sociosqu ad litora torquent per
+                conubia
+                nostra, per inceptos himenaeos."
+            </div>
+
+            <!-- PANNELLO EVENTI 2 -->
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Event2</h3>
+                </div>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere
+                turpis
+                placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique
+                senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies.
+                Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque
+                habitant
+                morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque lobortis, nunc eget
+                tincidunt interdum, quam magna facilisis metus, ut lobortis dolor turpis cursus velit. Nam semper nunc
+                sit
+                amet est elementum, vitae commodo nunc euismod. Class aptent taciti sociosqu ad litora torquent per
+                conubia
+                nostra, per inceptos himenaeos."
+            </div>
+
+            <!-- PANNELLO EVENTI 3 -->
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Event3</h3>
+                </div>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere
+                turpis
+                placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique
+                senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies.
+                Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque
+                habitant
+                morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque lobortis, nunc eget
+                tincidunt interdum, quam magna facilisis metus, ut lobortis dolor turpis cursus velit. Nam semper nunc
+                sit
+                amet est elementum, vitae commodo nunc euismod. Class aptent taciti sociosqu ad litora torquent per
+                conubia
+                nostra, per inceptos himenaeos."
+            </div>
+
+            <!-- Pannello  EVENTI 4 -->
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Event4</h3>
+                </div>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere
+                turpis
+                placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique
+                senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies.
+                Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque
+                habitant
+                morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque lobortis, nunc eget
+                tincidunt interdum, quam magna facilisis metus, ut lobortis dolor turpis cursus velit. Nam semper nunc
+                sit
+                amet est elementum, vitae commodo nunc euismod. Class aptent taciti sociosqu ad litora torquent per
+                conubia
+                nostra, per inceptos himenaeos."
             </div>
         </div>
+
+        <!-- TAG CLOUD -->
+        <div class="panel panel-default col-lg-3 col-md-3 tag-sociali">
+            <div class="panel-heading">
+                <h3 class="panel-title">Social tags - because tagging is good.</h3>
+            </div>
+            <div class="panel-body">
+                <h1>Event3</h1> <h4>Event1</h4>
+
+                <h2> Iced coffee</h2>
+
+                <h1>Live Music</h1>
+
+                <h2>Han Solo</h2> <h5>Sand, sand, sand</h5>
+
+                <h3> Events</h3>
+
+                <h2>Nope, not that sand</h2>
+
+                <h1> Wrong fandom, dude</h1>
+
+                <h3>Modal Nodes</h3>
+
+                <h2>Tatooine</h2> <h5>More sand</h5></div>
+        </div>
+
+        <!-- FINE CONTENUTO EVENTI -->
     </div>
 </div>
 
@@ -326,7 +391,7 @@
 <div class="container">
     <footer>
         <hr class="featurette-divider">
-        <p class="pull-right"><a href="homepage.html">Top</a></p>
+        <p class="pull-right"><a href="../../homepage.html">Top</a></p>
 
         <p>© 2014, Delta Team <a data-toggle="modal" data-target="#contatti">Contatti</a></p>
 
@@ -383,7 +448,8 @@
     </footer>
 </div>
 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -63,7 +63,7 @@
 }
 
 @media (max-width: 768px) {
-    #navigazione-contestuale, #myCarousel, #slideshow, .navbar-contestuale {
+    #navigazione-contestuale, #myCarousel, #slideshow, .navbar-contestuale, .tag-sociali {
         display: none;
     }
 }
