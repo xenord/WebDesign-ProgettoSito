@@ -5065,10 +5065,6 @@ a.list-group-item-danger.active:focus {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
-.panel-body > h1, h2, h3, h4, h5 {
-  padding: 15px;
-  display: inline; 
-}
 .panel-heading {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;

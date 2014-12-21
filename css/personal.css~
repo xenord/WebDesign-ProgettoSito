@@ -63,7 +63,7 @@
 }
 
 @media (max-width: 768px) {
-    #navigazione-contestuale, #myCarousel, #slideshow, .navbar-contestuale {
+    #navigazione-contestuale, #myCarousel, #slideshow {
         display: none;
     }
 }
@@ -168,12 +168,6 @@ p {
     padding: 15px;
 }
 
-<<<<<<< Updated upstream
-h6 {
-    font-size: 24px;
-    text-align: center;
-}
-=======
 
 
 
@@ -205,4 +199,3 @@ h6 {
 
 
 
->>>>>>> Stashed changes
