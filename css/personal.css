@@ -63,7 +63,7 @@
 }
 
 @media (max-width: 768px) {
-    #navigazione-contestuale, #myCarousel, #slideshow {
+    #navigazione-contestuale, #myCarousel, #slideshow, .navbar-contestuale {
         display: none;
     }
 }
@@ -167,33 +167,7 @@ p {
     display: inline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h6 {
+    font-size: 24px;
+    text-align: center;
+}
