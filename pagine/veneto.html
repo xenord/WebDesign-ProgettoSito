@@ -20,12 +20,13 @@
 
 <body>
 
-<!-- Menu -->
+<!-- Menu di navigazione -->
 <nav class="navbar-default" id="menu">
     <div class="col-lg-12 block-center img-responsive">
         <img src="http://placehold.it/1920x150" class="img-responsive">
     </div>
 
+    <!-- Smartphone -->
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -34,15 +35,16 @@
         </button>
         <a class="navbar-brand" href="../homepage.html">Delta Team</a>
     </div>
+
+    <!-- MENU DI NAVIGAZIONE Desktop-->
     <div class="navbar-collapse collapse">
-        <!-- MENU DI NAVIGAZIONE -->
         <ul class="nav navbar-nav">
 
             <!-- Localita -->
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Località<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Veneto</a></li>
+                    <li><a href="../pagine/localita/veneto.html">Veneto</a></li>
                     <li><a href="#">Trentino Alto-Adige</a></li>
                     <li><a href="#">Friuli Venezia Giulia</a></li>
                     <li><a href="#">Valle d'Aosta</a></li>
@@ -81,10 +83,10 @@
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Attrazioni Naturali</a></li>
                     <li><a href="#">Gastronomia</a></li>
-                    <li><a href="#">Sport</a></li>
+                    <li><a href="../pagine/attivita/sport.html">Sport</a></li>
                     <li><a href="#">Mare</a></li>
-                    <li><a href="#">Montagna</a></li>
-                    <li><a href="#">Lago</a></li>
+                    <li><a href="../pagine/attivita/montagna.html">Montagna</a></li>
+                    <li><a href="../pagine/attivita/lago.html">Lago</a></li>
                     <li><a href="#">Tempo Libero</a></li>
                 </ul>
             </li>
@@ -124,6 +126,117 @@
 
             <!-- Fotogallery -->
             <li><a href="#">Fotogallery</a></li>
+
+            <!-- Login -->
+            <li><a data-toggle="modal" data-target="#myModal">Login</a></li>
+            <!-- Modulo Login -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title" id="myModalLabel">Accedi</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="uLogin" placeholder="Login">
+                                        <label for="uLogin"
+                                               class="input-group-addon glyphicon glyphicon-user"></label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" id="uPassword"
+                                               placeholder="Password">
+                                        <label for="uPassword"
+                                               class="input-group-addon glyphicon glyphicon-lock"></label>
+                                    </div>
+                                </div>
+
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Ricordami
+                                    </label>
+                                </div>
+                            </form>
+                            <a data-toggle="modal" data-target="#registrazione">Non sei
+                                ancora Registrato?</a>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="form-control btn btn-primary">Accedi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modulo Registrazione -->
+            <div class="modal fade" id="registrazione" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title">Registrazione</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="rNome" placeholder="Nome">
+                                        <label for="uLogin"
+                                               class="input-group-addon glyphicon glyphicon-user"></label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="rCognome"
+                                               placeholder="Cognome">
+                                        <label for="uPassword"
+                                               class="input-group-addon glyphicon glyphicon-user"></label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="rEmail"
+                                               placeholder="Indirizzo Email">
+                                        <label for="uPassword"
+                                               class="input-group-addon glyphicon glyphicon-bookmark"></label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="rUsername"
+                                               placeholder="Username">
+                                        <label for="uPassword"
+                                               class="input-group-addon glyphicon glyphicon-user"></label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" id="rPassword"
+                                               placeholder="Password">
+                                        <label for="uPassword"
+                                               class="input-group-addon glyphicon glyphicon-lock"></label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="form-control btn btn-primary">Registrazione</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </ul>
 
         <!-- Zona a destra -->
@@ -139,6 +252,7 @@
         </ul>
 
     </div>
+
 </nav>
 
 <!-- Path -->
@@ -273,9 +387,60 @@
 <div class="container">
     <footer>
         <hr class="featurette-divider">
-        <p class="pull-right"><a href="veneto.html">Top</a></p>
+        <p class="pull-right"><a href="../homepage.html">Top</a></p>
 
-        <p>© 2014, Delta Team</p>
+        <p>© 2014, Delta Team <a data-toggle="modal" data-target="#contatti">Contatti</a></p>
+
+        <!-- Contatti -->
+        <!-- Modulo Contatti -->
+        <div class="modal fade" id="contatti" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">Contatti</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <!-- Nome -->
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="sNome" placeholder="Nome">
+                                    <label for="uLogin"
+                                           class="input-group-addon glyphicon glyphicon-user"></label>
+                                </div>
+                            </div>
+
+                            <!-- Cognome -->
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="sEmail"
+                                           placeholder="Inserisci la tua Email">
+                                    <label for="uPassword"
+                                           class="input-group-addon glyphicon glyphicon-bookmark"></label>
+                                </div>
+                            </div>
+
+                            <!-- Messaggio -->
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" for="message">Messaggio</label>
+
+                                <div class="col-md-9">
+                                <textarea class="form-control" id="message" name="message"
+                                          placeholder="Inserisci qui il tuo messaggio" rows="5"></textarea>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="form-control btn btn-primary">Invia</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </footer>
 </div>
 
