@@ -173,3 +173,11 @@ h6 {
     text-align: center;
 }
 
+.col-lg-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-right {
+margin-right: 0px;
+}
