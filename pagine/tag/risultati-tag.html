@@ -11,8 +11,8 @@
           content="Prototipo di sito turistico 'le bellezze del nord italia', come esempio di sito per l'esercitazione del corso di Web Design">
     <meta name="author" content="DeltaTeam">
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/personal.css">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/personal.css">
     <!-- Titolo -->
     <title>Prototipo di sito turistico</title>
 </head>
@@ -32,7 +32,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../homepage.html">Delta Team</a>
+        <a class="navbar-brand" href="../../homepage.html">Delta Team</a>
     </div>
 
     <!-- MENU DI NAVIGAZIONE Desktop-->
@@ -43,7 +43,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Località<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/localita/veneto.html">Veneto</a></li>
+                    <li><a href="../../pagine/localita/veneto.html">Veneto</a></li>
                     <li><a href="#">Trentino Alto-Adige</a></li>
                     <li><a href="#">Friuli Venezia Giulia</a></li>
                     <li><a href="#">Valle d'Aosta</a></li>
@@ -57,7 +57,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alloggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/hotel/hotel.html">Hotel</a></li>
+                    <li><a href="../../pagine/hotel/hotel.html">Hotel</a></li>
                     <li><a href="#">Campeggi</a></li>
                     <li><a href="#">Appartamenti</a></li>
                     <li><a href="#">Offerte Speciali</a></li>
@@ -82,10 +82,10 @@
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Attrazioni Naturali</a></li>
                     <li><a href="#">Gastronomia</a></li>
-                    <li><a href="../pagine/attivita/sport.html">Sport</a></li>
+                    <li><a href="../../pagine/attivita/sport.html">Sport</a></li>
                     <li><a href="#">Mare</a></li>
-                    <li><a href="../pagine/attivita/montagna.html">Montagna</a></li>
-                    <li><a href="../pagine/attivita/lago.html">Lago</a></li>
+                    <li><a href="../../pagine/attivita/montagna.html">Montagna</a></li>
+                    <li><a href="../../pagine/attivita/lago.html">Lago</a></li>
                     <li><a href="#">Tempo Libero</a></li>
                 </ul>
             </li>
@@ -117,14 +117,14 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Eventi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/eventi/manifestazioni.html">Manifestazioni</a></li>
-                    <li><a href="../pagine/eventi/mostre.html">Mostre</a></li>
-                    <li><a href="../pagine/eventi/fiere.html">Fiere</a></li>
+                    <li><a href="../../pagine/eventi/manifestazioni.html">Manifestazioni</a></li>
+                    <li><a href="../../pagine/eventi/mostre.html">Mostre</a></li>
+                    <li><a href="../../pagine/eventi/fiere.html">Fiere</a></li>
                 </ul>
             </li>
 
             <!-- Fotogallery -->
-            <li><a href="../pagine/fotogallery.html">Fotogallery</a></li>
+            <li><a href="../../pagine/fotogallery.html">Fotogallery</a></li>
 
             <!-- Login -->
             <li><a data-toggle="modal" data-target="#myModal">Login</a></li>
@@ -246,7 +246,8 @@
                     <input type="text" class="form-control" placeholder="Cerca">
                 </div>
                 <!-- Pulsante di ricerca -->
-                <button type="submit" class="btn btn-default"><a href="../pagine/risultati-ricerca.html">Ricerca</a>
+                <button type="submit" class="btn btn-default"><a
+                        href="../../pagine/risultati-ricerca.html">Ricerca</a>
                 </button>
             </form>
         </ul>
@@ -259,9 +260,9 @@
 <div class="row">
     <div class="col-lg-12">
         <ol class="breadcrumb">
-            <li><a href="../homepage.html">Home</a>
+            <li><a href="../../homepage.html">Home</a>
             </li>
-            <li class="active">Risultati Ricerca</li>
+            <li class="active">Risultati Tag</li>
         </ol>
     </div>
 </div>
@@ -357,52 +358,41 @@
         </div>
     </div>
 
-    <!-- Ricerca Avanzata -->
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-        <form class="navbar-form navbar-right" role="search">
-            <h3>Ricerca Avanzata</h3>
-            <!-- Campo compilabile -->
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Cerca">
+    <!-- Tag Sociali -->
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs tag-sociali">
+            <!-- Inseriamo un nuovo div di classe panel panel-default -->
+            <div class="panel panel-default">
+                <!-- TAG SOCIALI -->
+                <div class="panel-heading">
+                    <h3 class="panel-title">Tag Sociali</h3>
+                </div>
+                <div class="panel-body">
+                    <h2><a href="risultati-tag.html">Manifestazioni Belluno</a></h2>
+
+                    <h4><a href="risultati-tag.html">Fiere Padova</a></h4>
+
+                    <h2><a href="risultati-tag.html">Fiere Venezia</a></h2>
+
+                    <h1><a href="risultati-tag.html">Fiere Rovigo</a></h1>
+
+                    <h2><a href="risultati-tag.html">Mostre Venezia</a></h2>
+
+                    <h5><a href="risultati-tag.html">Manifestazioni Treviso</a></h5>
+
+                    <h3><a href="risultati-tag.html">Mostre Treviso</a></h3>
+
+                    <h2><a href="risultati-tag.html">Mostre Veneto</a></h2>
+
+                    <h2><a href="risultati-tag.html">Venezia</a></h2>
+
+                    <h1><a href="risultati-tag.html">Treviso</a></h1>
+
+                    <h2><a href="risultati-tag.html">Belluno</a></h2>
+
+                </div>
             </div>
-            <!-- Pulsante di ricerca -->
-            <button type="submit" class="btn btn-default">Ricerca</button>
-        </form>
-
-        <table class="table table-condensed table-hover">
-            <tbody>
-            <tr>
-                <td><label>
-                    <input type="checkbox">
-
-                </label><a href="#"><i class="icon-star-empty"></i></a>Hotel
-                </td>
-            </tr>
-            <tr>
-                <td><label>
-                    <input type="checkbox">
-
-                </label><a href="#"><i class="icon-star"></i></a>Campeggio
-                </td>
-            </tr>
-            <tr>
-                <td><label>
-                    <input type="checkbox">
-
-                </label><a href="#"><i class="icon-star"></i></a>Veneto
-                </td>
-            </tr>
-            <tr>
-                <td><label>
-                    <input type="checkbox">
-
-                </label><a href="#"><i class="icon-star"></i></a>Liguria
-                </td>
-            </tr>
-            </tbody>
-        </table>
-
-
+        </div>
     </div>
 
 
@@ -413,14 +403,14 @@
 <div class="container">
     <footer>
         <hr class="featurette-divider">
-        <p class="pull-right"><a href="../homepage.html">Top</a></p>
+        <p class="pull-right"><a href="../../homepage.html">Top</a></p>
 
-        <p>© 2014, Delta Team <a href="contacts.html">Contatti</a></p>
+        <p>© 2014, Delta Team <a href="../contacts.html">Contatti</a></p>
 
     </footer>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="../js/bootstrap.js"></script>
+<script src="../../js/bootstrap.js"></script>
 </body>
 </html>
