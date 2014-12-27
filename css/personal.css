@@ -186,3 +186,11 @@ margin-right: 0px;
 margin-right: 0px;
 margin-left: 0px;
 }
+
+.gerarchia-livello-1{
+    padding-left: 50px;
+}
+
+.gerarchia-livello-2{
+    padding-left: 100px;
+}
