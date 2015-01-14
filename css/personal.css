@@ -194,3 +194,8 @@ margin-left: 0px;
 .gerarchia-livello-2{
     padding-left: 100px;
 }
+
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
