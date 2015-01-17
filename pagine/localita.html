@@ -23,28 +23,27 @@
 <!-- Menu di navigazione -->
 <nav class="navbar-default" id="menu">
     <div class="col-lg-12 block-center img-responsive">
-        <img src="http://placehold.it/1920x150" class="img-responsive">
+        <img class="img-responsive" src="http://placehold.it/1920x150" >
     </div>
-
-    <!-- Smartphone -->
+    
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../homepage.html">Delta Team</a>
+        <a class="navbar-brand" href="homepage.html">Delta Team</a>
     </div>
 
-    <!-- MENU DI NAVIGAZIONE Desktop-->
-    <div class="navbar-collapse collapse">
+    <!-- MENU DI NAVIGAZIONE-->
+    <div class="navbar-collapse collapse hidden-print">
         <ul class="nav navbar-nav">
 
-            <!-- Localita -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Località<span
+            <!-- Località -->
+            <li class="dropdown"><a href="../pagine/localita.html" class="dropdown-toggle disabled" data-toggle="dropdown">Località<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/localita/veneto.html">Veneto</a></li>
+                    <li><a href="localita/veneto.html">Veneto</a></li>
                     <li><a href="#">Trentino Alto-Adige</a></li>
                     <li><a href="#">Friuli Venezia Giulia</a></li>
                     <li><a href="#">Valle d'Aosta</a></li>
@@ -55,10 +54,10 @@
             </li>
 
             <!-- Alloggi -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alloggi<span
+            <li class="dropdown"><a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Alloggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/hotel/hotel.html">Hotel</a></li>
+                    <li><a href="#">Hotel</a></li>
                     <li><a href="#">Campeggi</a></li>
                     <li><a href="#">Appartamenti</a></li>
                     <li><a href="#">Offerte Speciali</a></li>
@@ -67,7 +66,7 @@
             </li>
 
             <!-- Info Viaggi -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Viaggi<span
+            <li class="dropdown"><a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Info Viaggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Come Raggiungere la zona</a></li>
@@ -78,7 +77,7 @@
             </li>
 
             <!-- Attività -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Attività<span
+            <li class="dropdown"><a href="../pagine/attivita.html" class="dropdown-toggle disabled" data-toggle="dropdown">Attività<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Attrazioni Naturali</a></li>
@@ -92,7 +91,7 @@
             </li>
 
             <!-- Da visitare -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Da Visitare<span
+            <li class="dropdown"><a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Da Visitare<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Siti Archeologici</a></li>
@@ -105,7 +104,7 @@
             </li>
 
             <!-- Info Territorio -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Territorio<span
+            <li class="dropdown"><a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Info Territorio<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Dove Siamo</a></li>
@@ -115,7 +114,7 @@
             </li>
 
             <!-- Eventi -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Eventi<span
+            <li class="dropdown"><a href="../pagine/eventi.html" class="dropdown-toggle disabled" data-toggle="dropdown">Eventi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="../pagine/eventi/manifestazioni.html">Manifestazioni</a></li>
@@ -128,7 +127,7 @@
             <li><a href="../pagine/fotogallery.html">Fotogallery</a></li>
 
             <!-- Login -->
-            <li><a data-toggle="modal" data-target="#myModal">Login</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
             <!-- Modulo Login -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                  aria-hidden="true">
@@ -239,7 +238,7 @@
 
         </ul>
 
-        <!-- Zona a destra -->
+        <!-- Funzione ricerca -->
         <ul class="nav navbar-nav navbar-right">
             <form class="navbar-form navbar-right" role="search">
                 <!-- Campo compilabile -->
@@ -255,6 +254,7 @@
     </div>
 
 </nav>
+    
 
 <!-- Path -->
 <div class="row">
@@ -271,13 +271,12 @@
 <div class="col-lg-12 col-md-12 col-sm-12">
 
     <!-- Menu di navigazione Contestuale -->
-    <div class="navbar-contestuale col-lg-3 col-md-3 col-sm-3">
+    <div class="navbar-contestuale col-lg-3 col-md-3 hidden-xs hidden-sm hidden-print">
         <!-- Lista generale -->
         <ul class="navbar navbar-text nav">
             <li>
-                <a href="#" class="text-white navbar-testo">Veneto</a>
+                <a href="localita/veneto.html" class="text-white navbar-testo">Veneto</a>
             </li>
-
             <li>
                 <a href="#" class="text-white navbar-testo ">Trentino Alto-Adige</a>
             </li>
@@ -308,6 +307,87 @@
             </div>
         </div>
     </div>
+    
+    <div class="container featurette">
+      
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Veneto">
+        </div>
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Veneto</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="localita/veneto.html" role="button">Per saperne di più</a></p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Trentino Alto-Adige</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Trentino Alto-Adige">
+        </div>
+      </div>
+      
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Friuli Venezia Giulia">
+        </div>
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Friuli Venezia Giulia</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Valle d'Aosta</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Valle d'Aosta">
+        </div>
+      </div>
+    
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Piemonte">
+        </div>
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Piemonte</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Lombardia</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Lombardia">
+        </div>
+      </div>
+        
+        <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Liguria">
+        </div>
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Liguria</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+    </div>
+        
+</div>
 </div>
 <!-- Fine Contenuto Pagina -->
 
@@ -315,7 +395,7 @@
 <div class="container">
     <footer>
         <hr class="featurette-divider">
-        <p class="pull-right"><a href="../homepage.html">Top</a></p>
+        <p class="pull-right"><a href="#">Top</a></p>
 
         <p>© 2014, Delta Team <a href="contacts.html">Contatti</a></p>
 

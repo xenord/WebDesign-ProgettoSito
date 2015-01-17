@@ -232,3 +232,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         padding-bottom: 10px;
     }
 }
+
+.featurette .col-sm-7{
+    text-align: center;
+}
+
+
+
+
