@@ -22,25 +22,24 @@
 <!-- Menu di navigazione -->
 <nav class="navbar-default" id="menu">
     <div class="col-lg-12 block-center img-responsive">
-        <img src="http://placehold.it/1920x150" class="img-responsive">
+        <img class="img-responsive" src="http://placehold.it/1920x150" >
     </div>
-
-    <!-- Smartphone -->
+    
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../homepage.html">Delta Team</a>
+        <a class="navbar-brand" href="homepage.html">Delta Team</a>
     </div>
 
-    <!-- MENU DI NAVIGAZIONE Desktop-->
-    <div class="navbar-collapse collapse">
+    <!-- MENU DI NAVIGAZIONE-->
+    <div class="navbar-collapse collapse hidden-print">
         <ul class="nav navbar-nav">
 
-            <!-- Localita -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Località<span
+            <!-- Località -->
+            <li class="dropdown"><a href="localita.html" class="dropdown-toggle disabled" data-toggle="dropdown">Località<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="localita/veneto.html">Veneto</a></li>
@@ -54,10 +53,10 @@
             </li>
 
             <!-- Alloggi -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alloggi<span
+            <li class="dropdown"><a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Alloggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="hotel/hotel.html">Hotel</a></li>
+                    <li><a href="#">Hotel</a></li>
                     <li><a href="#">Campeggi</a></li>
                     <li><a href="#">Appartamenti</a></li>
                     <li><a href="#">Offerte Speciali</a></li>
@@ -66,7 +65,7 @@
             </li>
 
             <!-- Info Viaggi -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Viaggi<span
+            <li class="dropdown"><a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Info Viaggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Come Raggiungere la zona</a></li>
@@ -77,7 +76,7 @@
             </li>
 
             <!-- Attività -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Attività<span
+            <li class="dropdown"><a href="attivita.html" class="dropdown-toggle disabled" data-toggle="dropdown">Attività<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Attrazioni Naturali</a></li>
@@ -91,7 +90,7 @@
             </li>
 
             <!-- Da visitare -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Da Visitare<span
+            <li class="dropdown"><a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Da Visitare<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Siti Archeologici</a></li>
@@ -104,7 +103,7 @@
             </li>
 
             <!-- Info Territorio -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Territorio<span
+            <li class="dropdown"><a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">Info Territorio<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#">Dove Siamo</a></li>
@@ -114,7 +113,7 @@
             </li>
 
             <!-- Eventi -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Eventi<span
+            <li class="dropdown"><a href="eventi.html" class="dropdown-toggle disabled" data-toggle="dropdown">Eventi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="eventi/manifestazioni.html">Manifestazioni</a></li>
@@ -127,7 +126,7 @@
             <li><a href="fotogallery.html">Fotogallery</a></li>
 
             <!-- Login -->
-            <li><a data-toggle="modal" data-target="#myModal">Login</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
             <!-- Modulo Login -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                  aria-hidden="true">
@@ -238,7 +237,7 @@
 
         </ul>
 
-        <!-- Zona a destra -->
+        <!-- Funzione ricerca -->
         <ul class="nav navbar-nav navbar-right">
             <form class="navbar-form navbar-right" role="search">
                 <!-- Campo compilabile -->
@@ -255,13 +254,11 @@
 
 </nav>
 
-
 <!-- Path -->
 <div class="row">
     <div class="col-lg-12">
         <ol class="breadcrumb">
-            <li><a href="../homepage.html">Home</a>
-            </li>
+            <li><a href="../homepage.html">Home</a></li>
             <li class="active">Attività</li>
         </ol>
     </div>
@@ -269,41 +266,42 @@
 
 <!-- Menu di navigazione Contestuale -->
 <div class="row">
-    <div class="navbar-contestuale col-lg-2">
+    <div class="container col-lg-3 col-md-3 hidden-xs hidden-sm hidden-print">
+    <div class="navbar-contestuale ">
         <!-- Lista generale -->
         <ul class="navbar navbar-text nav">
             <li>
-                <a href="#" id="home" class="text-white navbar-testo">Località</a>
+                <a href="localita.html" id="home" class="text-white navbar-testo">Località</a>
             </li>
             <li>
-                <a href="#" id="feed" class="text-white navbar-testo">Alloggi</a>
+                <a href="" id="feed" class="text-white navbar-testo">Alloggi</a>
             </li>
             <li>
                 <a href="#" class="text-white navbar-testo">Info Viaggio</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo">Attività</a>
+                <a href="attivita.html" class="text-white navbar-testo">Attività</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo sottomenu">Attrazioni Naturali</a>
+                <a href="#" class="text-white navbar-testo sottomenu">- Attrazioni Naturali</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo sottomenu">Gastronomia</a>
+                <a href="#" class="text-white navbar-testo sottomenu">- Gastronomia</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo sottomenu">Sport</a>
+                <a href="attivita/sport.html" class="text-white navbar-testo sottomenu">- Sport</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo sottomenu">Mare</a>
+                <a href="#" class="text-white navbar-testo sottomenu">- Mare</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo sottomenu">Montagna</a>
+                <a href="attivita/montagna.html" class="text-white navbar-testo sottomenu">- Montagna</a>
             </li>
             <li>
-                <a href="attivita/lago.html" class="text-white navbar-testo sottomenu">Lago</a>
+                <a href="attivita/lago.html" class="text-white navbar-testo sottomenu">- Lago</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo sottomenu">Tempo Libero</a>
+                <a href="#" class="text-white navbar-testo sottomenu">- Tempo Libero</a>
             </li>
 
             <li>
@@ -313,24 +311,63 @@
                 <a href="#" class="text-white navbar-testo ">Info Territorio</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo ">Eventi</a>
+                <a href="eventi.html" class="text-white navbar-testo ">Eventi</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo ">Fotogallery</a>
+                <a href="fotogallery.html" class="text-white navbar-testo ">Fotogallery</a>
             </li>
 
-
         </ul>
-
     </div>
-
+    </div>
+    <div class="container marketing col-lg-8 col-md-8 col-sm-12">
+        
+        <div class="col-lg-4">
+            <div align="center"><img class="img-responsive" src="http://placehold.it/400x400" alt="Attrazioni Naturali"></div>
+                <h1>Attrazioni Naturali</h1>
+            <p><a class="btn btn-default" href="" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-lg-4">
+            <div align="center"><img class="img-responsive" src="http://placehold.it/400x400" alt="Gastronomia"></div>
+            <h1>Gastronomia</h1>
+            <p><a class="btn btn-default" href="" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-lg-4">
+            <div align="center"><img class="img-responsive" src="http://placehold.it/400x400" alt="Sport"></div>
+            <h1>Sport</h1>
+            <p><a class="btn btn-default" href="attivita/sport.html" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-lg-4">
+            <div align="center"><img class="img-responsive" src="http://placehold.it/400x400" alt="Mare"></div>
+            <h1>Mare</h1>
+            <p><a class="btn btn-default" href="" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-lg-4">
+            <div align="center"><img class="img-responsive" src="http://placehold.it/400x400" alt="Montagna"></div>
+            <h1>Montagna</h1>
+            <p><a class="btn btn-default" href="attivita/montagna.html" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-lg-4">
+            <div align="center"><img class="img-responsive" src="http://placehold.it/400x400" alt="Lago"></div>
+            <h1>Lago</h1>
+            <p><a class="btn btn-default" href="attivita/lago.html" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-lg-4">
+            <div align="center"><img class="img-responsive" src="http://placehold.it/400x400" alt="Tempo Libero"></div>
+            <h1>Tempo Libero</h1>
+            <p><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+        
+    
+    </div>
+    
 </div>
 
 <!-- Footer -->
 <div class="container">
     <footer>
         <hr class="featurette-divider">
-        <p class="pull-right"><a href="../homepage.html">Top</a></p>
+        <p class="pull-right"><a href="#">Top</a></p>
 
         <p>© 2014, Delta Team <a href="contacts.html">Contatti</a></p>
 

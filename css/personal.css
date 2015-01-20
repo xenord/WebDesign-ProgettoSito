@@ -195,17 +195,19 @@ margin-left: 0px;
     padding-left: 100px;
 }
 
-
+/*
+@media(min-width: 992px){
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
 }
-
+*/
+}
 
 .gerarchia-btn{
     font-size: 22px;
 }    
 
-
+/*
 @media (max-width: 992px) {
     .navbar-header {
         float: none;
@@ -232,11 +234,21 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
         padding-bottom: 10px;
     }
 }
+*/
+
+
 
 .featurette .col-sm-7{
     text-align: center;
 }
 
+.marketing .col-lg-4 {
+    text-align: center;
+    padding: 10px;    
+}
+.marketing .col-lg-4 h1{
+    font-size: 28px;
+}
 
 
 
