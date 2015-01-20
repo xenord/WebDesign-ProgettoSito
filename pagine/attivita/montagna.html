@@ -26,13 +26,13 @@
     </div>
 
     <!-- Smartphone -->
-    <div class="navbar-header">
+    <div class="navbar-header hidden-print">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../../homepage.html">Delta Team</a>
+        <a class="navbar-brand" href="#">Delta Team</a>
     </div>
 
     <!-- MENU DI NAVIGAZIONE Desktop-->
@@ -43,7 +43,8 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Località<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../../pagine/localita/veneto.html">Veneto</a></li>
+                    <li><a href="#">Homepage località</a></li>
+                    <li><a href="#">Veneto</a></li>
                     <li><a href="#">Trentino Alto-Adige</a></li>
                     <li><a href="#">Friuli Venezia Giulia</a></li>
                     <li><a href="#">Valle d'Aosta</a></li>
@@ -57,7 +58,8 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alloggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../../pagine/hotel/hotel.html">Hotel</a></li>
+                    <li><a href="#">Homepage alloggi</a></li>
+                    <li><a href="#">Hotel</a></li>
                     <li><a href="#">Campeggi</a></li>
                     <li><a href="#">Appartamenti</a></li>
                     <li><a href="#">Offerte Speciali</a></li>
@@ -69,6 +71,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Viaggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Homepage info viaggi</a></li>
                     <li><a href="#">Come Raggiungere la zona</a></li>
                     <li><a href="#">Agenzie Turistiche</a></li>
                     <li><a href="#">Informazioni Utili</a></li>
@@ -80,12 +83,13 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Attività<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="../attivita.html">Homepage attività</a></li>
                     <li><a href="#">Attrazioni Naturali</a></li>
                     <li><a href="#">Gastronomia</a></li>
-                    <li><a href="../../pagine/attivita/sport.html">Sport</a></li>
+                    <li><a href="#">Sport</a></li>
                     <li><a href="#">Mare</a></li>
-                    <li><a href="../../pagine/attivita/montagna.html">Montagna</a></li>
-                    <li><a href="../../pagine/attivita/lago.html">Lago</a></li>
+                    <li><a href="montagna.html">Montagna</a></li>
+                    <li><a href="#">Lago</a></li>
                     <li><a href="#">Tempo Libero</a></li>
                 </ul>
             </li>
@@ -94,6 +98,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Da Visitare<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Homepage da visitare</a></li>
                     <li><a href="#">Siti Archeologici</a></li>
                     <li><a href="#">Musei e Collezioni</a></li>
                     <li><a href="#">Chiese</a></li>
@@ -107,6 +112,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Territorio<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Homepage info territorio</a></li>
                     <li><a href="#">Dove Siamo</a></li>
                     <li><a href="#">La Storia del Nord Italia</a></li>
                     <li><a href="#">Culture e dialetti</a></li>
@@ -117,9 +123,10 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Eventi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../../pagine/eventi/manifestazioni.html">Manifestazioni</a></li>
+                    <li><a href="../eventi.html">Homepage eventi</a></li>
+                    <li><a href="#">Manifestazioni</a></li>
                     <li><a href="../../pagine/eventi/mostre.html">Mostre</a></li>
-                    <li><a href="../../pagine/eventi/fiere.html">Fiere</a></li>
+                    <li><a href="#">Fiere</a></li>
                 </ul>
             </li>
 
@@ -127,7 +134,7 @@
             <li><a href="../../pagine/fotogallery.html">Fotogallery</a></li>
 
             <!-- Login -->
-            <li><a data-toggle="modal" data-target="#myModal">Login</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
             <!-- Modulo Login -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                  aria-hidden="true">
@@ -238,7 +245,7 @@
 
         </ul>
 
-        <!-- Zona a destra -->
+        <!-- Funzione ricerca -->
         <ul class="nav navbar-nav navbar-right">
             <form class="navbar-form navbar-right" role="search">
                 <!-- Campo compilabile -->
@@ -262,16 +269,17 @@
         <ol class="breadcrumb">
             <li><a href="../../homepage.html">Home</a>
             </li>
-            <li>Attività</li>
+            <li><a href="../attivita.html">Attività</a></li>
             <li class="active">Montagna</li>
         </ol>
     </div>
 </div>
 
-<!-- Menu di navigazione Contestuale -->
+
 <div class="row">
-    <div class="navbar-contestuale col-lg-2">
-        <!-- Lista generale -->
+    <!-- Menu di navigazione contestuale -->
+    <div class="container col-lg-3 col-md-3 hidden-xs hidden-sm hidden-print">
+    <div class="navbar-contestuale">
         <ul class="navbar navbar-text nav">
             <li>
                 <a href="#" id="home" class="text-white navbar-testo">Attrazioni Naturali</a>
@@ -291,16 +299,16 @@
                 <a href="#" class="text-white navbar-testo">Montagna</a>
             </li>
             <li>
-                <a href="montagna/dolomiti.html" class="text-white navbar-testo sottomenu">Dolomiti</a>
+                <a href="montagna/dolomiti.html" class="text-white navbar-testo sottomenu">- Dolomiti</a>
             </li>
             <li>
-                <a href="montagna/tirolo.html" class="text-white navbar-testo sottomenu">Tirolo</a>
+                <a href="#" class="text-white navbar-testo sottomenu">- Tirolo</a>
             </li>
             <li>
-                <a href="montagna/alpi-graie.html" class="text-white navbar-testo sottomenu">Alpi Graie</a>
+                <a href="#" class="text-white navbar-testo sottomenu">- Alpi Graie</a>
             </li>
             <li>
-                <a href="montagna/alpi-marittime.html" class="text-white navbar-testo sottomenu">Alpi Marittime</a>
+                <a href="#" class="text-white navbar-testo sottomenu">- Alpi Marittime</a>
             </li>
             <li>
                 <a href="#" class="text-white navbar-testo ">Lago</a>
@@ -313,7 +321,62 @@
         </ul>
 
     </div>
+    </div>
+    
+<!-- Contenuto Pagina -->
+    <div class="container">
+        <div class="row">
+            <div class="contenuto-pagina text-right col-lg-9 col-md-9 col-sm-9 hidden-xs hidden-sm hidden-print">
+                <img class="img-responsive" src="http://placehold.it/1024x512">
+            </div>
+        </div>
+    </div>
+    
+</div>
+    
+<div class="container featurette">
+    <div class="row featurette">
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Dolomiti">
+        </div>
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Dolomiti</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="montagna/dolomiti.html" role="button">Per saperne di più</a></p>
+        </div>
+    </div>
 
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Tirolo</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Tirolo">
+        </div>
+      </div>
+      
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Alpi Graie">
+        </div>
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Alpi Graie</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Alpi marittime</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/300x300" alt="Alpi marittime">
+        </div>
+      </div>     
 </div>
 
 
@@ -321,7 +384,7 @@
 <div class="container">
     <footer>
         <hr class="featurette-divider">
-        <p class="pull-right"><a href="../../homepage.html">Top</a></p>
+        <p class="pull-right"><a href="#">Top</a></p>
 
         <p>© 2014, Delta Team <a href="../contacts.html">Contatti</a></p>
 
