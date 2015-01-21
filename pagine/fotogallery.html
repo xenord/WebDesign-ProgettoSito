@@ -1,42 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="it">
+
+<!-- Meta e CSS -->
 <head>
+    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Sito turistico</title>
-    <meta name="description" content="Sito turistico sulle alpi del nord-est Italia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Prototipo di sito turistico 'le bellezze del nord italia', come esempio di sito per l'esercitazione del corso di Web Design">
     <meta name="author" content="DeltaTeam">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/personal.css">
+    <!-- Titolo -->
+    <title>Prototipo di sito turistico</title>
 </head>
-<body>
 
+<body>
 
 <!-- Menu di navigazione -->
 <nav class="navbar-default" id="menu">
     <div class="col-lg-12 block-center img-responsive">
-        <img src="http://placehold.it/1920x150" class="img-responsive">
+        <img class="img-responsive" src="http://placehold.it/1920x150" >
     </div>
-
-    <!-- Smartphone -->
-    <div class="navbar-header">
+    
+    <div class="navbar-header hidden-print">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../homepage.html">Delta Team</a>
+        <a class="navbar-brand" href="#">Delta Team</a>
     </div>
 
-    <!-- MENU DI NAVIGAZIONE Desktop-->
+    <!-- MENU DI NAVIGAZIONE-->
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
 
-            <!-- Localita -->
+            <!-- Località -->
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Località<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/localita/veneto.html">Veneto</a></li>
+                    <li><a href="#">Homepage località</a></li>
+                    <li><a href="#">Veneto</a></li>
                     <li><a href="#">Trentino Alto-Adige</a></li>
                     <li><a href="#">Friuli Venezia Giulia</a></li>
                     <li><a href="#">Valle d'Aosta</a></li>
@@ -50,7 +57,8 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alloggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/hotel/hotel.html">Hotel</a></li>
+                    <li><a href="#">Homepage alloggi</a></li>
+                    <li><a href="#">Hotel</a></li>
                     <li><a href="#">Campeggi</a></li>
                     <li><a href="#">Appartamenti</a></li>
                     <li><a href="#">Offerte Speciali</a></li>
@@ -62,6 +70,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Viaggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Homepage info viaggi</a></li>
                     <li><a href="#">Come Raggiungere la zona</a></li>
                     <li><a href="#">Agenzie Turistiche</a></li>
                     <li><a href="#">Informazioni Utili</a></li>
@@ -70,15 +79,16 @@
             </li>
 
             <!-- Attività -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Attività<span
+            <li class="dropdown"><a href="attivita.html" class="dropdown-toggle" data-toggle="dropdown">Attività<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="attivita.html">Homepage attività</a></li>
                     <li><a href="#">Attrazioni Naturali</a></li>
                     <li><a href="#">Gastronomia</a></li>
-                    <li><a href="../pagine/attivita/sport.html">Sport</a></li>
+                    <li><a href="#">Sport</a></li>
                     <li><a href="#">Mare</a></li>
-                    <li><a href="../pagine/attivita/montagna.html">Montagna</a></li>
-                    <li><a href="../pagine/attivita/lago.html">Lago</a></li>
+                    <li><a href="attivita/montagna.html">Montagna</a></li>
+                    <li><a href="#">Lago</a></li>
                     <li><a href="#">Tempo Libero</a></li>
                 </ul>
             </li>
@@ -87,6 +97,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Da Visitare<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Homepage da visitare</a></li>
                     <li><a href="#">Siti Archeologici</a></li>
                     <li><a href="#">Musei e Collezioni</a></li>
                     <li><a href="#">Chiese</a></li>
@@ -100,6 +111,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Territorio<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Homepage info territorio</a></li>
                     <li><a href="#">Dove Siamo</a></li>
                     <li><a href="#">La Storia del Nord Italia</a></li>
                     <li><a href="#">Culture e dialetti</a></li>
@@ -107,20 +119,21 @@
             </li>
 
             <!-- Eventi -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Eventi<span
+            <li class="dropdown"><a href="eventi.html" class="dropdown-toggle" data-toggle="dropdown">Eventi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/eventi/manifestazioni.html">Manifestazioni</a></li>
-                    <li><a href="../pagine/eventi/mostre.html">Mostre</a></li>
-                    <li><a href="../pagine/eventi/fiere.html">Fiere</a></li>
+                    <li><a href="eventi.html">Homepage eventi</a></li>
+                    <li><a href="#">Manifestazioni</a></li>
+                    <li><a href="eventi/mostre.html">Mostre</a></li>
+                    <li><a href="#">Fiere</a></li>
                 </ul>
             </li>
 
             <!-- Fotogallery -->
-            <li><a href="../pagine/fotogallery.html">Fotogallery</a></li>
+            <li><a href="fotogallery.html">Fotogallery</a></li>
 
             <!-- Login -->
-            <li><a data-toggle="modal" data-target="#myModal">Login</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
             <!-- Modulo Login -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                  aria-hidden="true">
@@ -231,7 +244,7 @@
 
         </ul>
 
-        <!-- Zona a destra -->
+        <!-- Funzione ricerca -->
         <ul class="nav navbar-nav navbar-right">
             <form class="navbar-form navbar-right" role="search">
                 <!-- Campo compilabile -->
@@ -239,7 +252,7 @@
                     <input type="text" class="form-control" placeholder="Cerca">
                 </div>
                 <!-- Pulsante di ricerca -->
-                <button type="submit" class="btn btn-default"><a href="../pagine/risultati-ricerca.html">Ricerca</a>
+                <button type="submit" class="btn btn-default"><a href="risultati-ricerca.html">Ricerca</a>
                 </button>
             </form>
         </ul>
@@ -248,13 +261,14 @@
 
 </nav>
 
-
-<!-- PATH -->
-<div class="container">
-    <ol class="breadcrumb">
-        <li><a href="../homepage.html">Homepage</a></li>
-        <li class="active">Fotogallery</li>
-    </ol>
+<!-- Path -->
+<div class="row">
+    <div class="col-lg-12">
+        <ol class="breadcrumb">
+            <li><a href="../homepage.html">Home</a></li>
+            <li class="active">Fotogallery</li>
+        </ol>
+    </div>
 </div>
 
 
@@ -263,75 +277,65 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header text-center">FOTOGALLERY</h2>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.</p>
+            <h2>FOTOGALLERY</h2>           
         </div>
-        <!--  Modulo Foto 1 -->
+        <!--  Foto 1 -->
         <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 img-galleria">
             <a href="#fotogallery1" class="portfolio-link" data-toggle="modal">
                 <img class="img-responsive img-hover" src="http://placehold.it/512x512" alt="">
             </a>
 
         </div>
-        <!-- Modulo Foto 2 -->
+        <!-- Foto 2 -->
         <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 img-galleria">
             <a href="#fotogallery2" class="portfolio-link" data-toggle="modal">
                 <img class="img-responsive img-hover" src="http://placehold.it/512x512" alt="">
             </a>
 
         </div>
-        <!-- Modulo Foto 3 -->
+        <!-- Foto 3 -->
         <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 img-galleria">
             <a href="#fotogallery3" class="portfolio-link" data-toggle="modal">
                 <img class="img-responsive img-hover" src="http://placehold.it/512x512" alt="">
             </a>
 
         </div>
-        <!-- Modulo Foto 4 -->
+        <!-- Foto 4 -->
         <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 img-galleria">
             <a href="#fotogallery4" class="portfolio-link" data-toggle="modal">
                 <img class="img-responsive img-hover" src="http://placehold.it/512x512" alt="">
             </a>
         </div>
 
-        <!--  Modulo Foto 5 -->
+        <!--  Foto 5 -->
         <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 img-galleria">
             <a href="#fotogallery5" class="portfolio-link" data-toggle="modal">
                 <img class="img-responsive img-hover" src="http://placehold.it/512x512" alt="">
             </a>
         </div>
 
-        <!--  Modulo Foto 6 -->
+        <!--  Foto 6 -->
         <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 img-galleria">
             <a href="#fotogallery6" class="portfolio-link" data-toggle="modal">
                 <img class="img-responsive img-hover" src="http://placehold.it/512x512" alt="">
             </a>
         </div>
 
-        <!--  Modulo Foto 7 -->
+        <!--  Foto 7 -->
         <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 img-galleria">
             <a href="#fotogallery7" class="portfolio-link" data-toggle="modal">
                 <img class="img-responsive img-hover" src="http://placehold.it/512x512" alt="">
             </a>
         </div>
 
-        <!-- Modulo Foto 8 -->
+        <!-- Foto 8 -->
         <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 img-galleria">
             <a href="#fotogallery8" class="portfolio-link" data-toggle="modal">
                 <img class="img-responsive img-hover" src="http://placehold.it/512x512" alt="">
             </a>
         </div>
 
-        <!-- Modulo Foto 9 -->
+        <!-- Foto 9 -->
         <div class="col-lg-4 col-md-4 col-sm-5 col-xs-12 img-galleria">
             <a href="#fotogallery9" class="portfolio-link" data-toggle="modal">
                 <img class="img-responsive img-hover immagine"
@@ -659,15 +663,16 @@
 <div class="container">
     <footer>
         <hr class="featurette-divider">
-        <p class="pull-right"><a href="../homepage.html">Top</a></p>
+        <p class="pull-right"><a href="#">Top</a></p>
 
         <p>© 2014, Delta Team <a href="contacts.html">Contatti</a></p>
 
     </footer>
 </div>
 
-<!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<br>
 </body>
+
 </html>

@@ -25,25 +25,25 @@
         <img src="http://placehold.it/1920x150" class="img-responsive">
     </div>
 
-    <!-- Smartphone -->
-    <div class="navbar-header">
+    <div class="navbar-header hidden-print">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../homepage.html">Delta Team</a>
+        <a class="navbar-brand" href="#">Delta Team</a>
     </div>
 
-    <!-- MENU DI NAVIGAZIONE Desktop-->
+    <!-- MENU DI NAVIGAZIONE-->
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
 
-            <!-- Localita -->
+            <!-- Località -->
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Località<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/localita/veneto.html">Veneto</a></li>
+                    <li><a href="#">Homepage località</a></li>
+                    <li><a href="#">Veneto</a></li>
                     <li><a href="#">Trentino Alto-Adige</a></li>
                     <li><a href="#">Friuli Venezia Giulia</a></li>
                     <li><a href="#">Valle d'Aosta</a></li>
@@ -57,7 +57,8 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alloggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/hotel/hotel.html">Hotel</a></li>
+                    <li><a href="#">Homepage alloggi</a></li>
+                    <li><a href="#">Hotel</a></li>
                     <li><a href="#">Campeggi</a></li>
                     <li><a href="#">Appartamenti</a></li>
                     <li><a href="#">Offerte Speciali</a></li>
@@ -69,6 +70,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Viaggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Homepage info viaggi</a></li>
                     <li><a href="#">Come Raggiungere la zona</a></li>
                     <li><a href="#">Agenzie Turistiche</a></li>
                     <li><a href="#">Informazioni Utili</a></li>
@@ -80,12 +82,13 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Attività<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="attivita.html">Homepage attività</a></li>
                     <li><a href="#">Attrazioni Naturali</a></li>
                     <li><a href="#">Gastronomia</a></li>
-                    <li><a href="../pagine/attivita/sport.html">Sport</a></li>
+                    <li><a href="#">Sport</a></li>
                     <li><a href="#">Mare</a></li>
-                    <li><a href="../pagine/attivita/montagna.html">Montagna</a></li>
-                    <li><a href="../pagine/attivita/lago.html">Lago</a></li>
+                    <li><a href="attivita/montagna.html">Montagna</a></li>
+                    <li><a href="#">Lago</a></li>
                     <li><a href="#">Tempo Libero</a></li>
                 </ul>
             </li>
@@ -94,6 +97,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Da Visitare<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Homepage da visitare</a></li>
                     <li><a href="#">Siti Archeologici</a></li>
                     <li><a href="#">Musei e Collezioni</a></li>
                     <li><a href="#">Chiese</a></li>
@@ -107,6 +111,7 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Territorio<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Homepage info territorio</a></li>
                     <li><a href="#">Dove Siamo</a></li>
                     <li><a href="#">La Storia del Nord Italia</a></li>
                     <li><a href="#">Culture e dialetti</a></li>
@@ -117,17 +122,18 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Eventi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../pagine/eventi/manifestazioni.html">Manifestazioni</a></li>
-                    <li><a href="../pagine/eventi/mostre.html">Mostre</a></li>
-                    <li><a href="../pagine/eventi/fiere.html">Fiere</a></li>
+                    <li><a href="eventi.html">Homepage eventi</a></li>
+                    <li><a href="#">Manifestazioni</a></li>
+                    <li><a href="eventi/mostre.html">Mostre</a></li>
+                    <li><a href="#">Fiere</a></li>
                 </ul>
             </li>
 
             <!-- Fotogallery -->
-            <li><a href="../pagine/fotogallery.html">Fotogallery</a></li>
+            <li><a href="fotogallery.html">Fotogallery</a></li>
 
             <!-- Login -->
-            <li><a data-toggle="modal" data-target="#myModal">Login</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
             <!-- Modulo Login -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                  aria-hidden="true">
@@ -238,7 +244,7 @@
 
         </ul>
 
-        <!-- Zona a destra -->
+        <!-- Funzione ricerca -->
         <ul class="nav navbar-nav navbar-right">
             <form class="navbar-form navbar-right" role="search">
                 <!-- Campo compilabile -->
@@ -246,7 +252,7 @@
                     <input type="text" class="form-control" placeholder="Cerca">
                 </div>
                 <!-- Pulsante di ricerca -->
-                <button type="submit" class="btn btn-default"><a href="../pagine/risultati-ricerca.html">Ricerca</a>
+                <button type="submit" class="btn btn-default"><a href="risultati-ricerca.html">Ricerca</a>
                 </button>
             </form>
         </ul>
@@ -259,8 +265,7 @@
 <div class="row">
     <div class="col-lg-12">
         <ol class="breadcrumb">
-            <li><a href="../homepage.html">Home</a>
-            </li>
+            <li><a href="../homepage.html">Home</a></li>
             <li class="active">Gerarchia Sito</li>
         </ol>
     </div>
@@ -272,76 +277,76 @@
     <div class="row">
 
         <a class="gerarchia-livello-0" href="../homepage.html">Homepage</a><br>
-        <a class="gerarchia-livello-1" data-toggle="modal" data-target="#registrazione" >Registrazione Utente</a><br>
-        <a class="gerarchia-livello-1" data-toggle="modal" data-target="#myModal" >Login Profilo Personale</a><br>
-        <a class="gerarchia-livello-2">Modifica Dati Personali</a><br>
+        <a class="gerarchia-livello-1" data-toggle="modal" data-target="#registrazione" href="#">Registrazione Utente</a><br>
+        <a class="gerarchia-livello-1" data-toggle="modal" data-target="#myModal" href="#">Login Profilo Personale</a><br>
+        <a class="gerarchia-livello-2" href="#">Modifica Dati Personali</a><br>
 
-        <a class="gerarchia-livello-0" href="localita.html">Località</a><br>
-        <a class="gerarchia-livello-1" href="localita/veneto.html">Veneto</a><br>
-        <a class="gerarchia-livello-1">Trentino Alto-Adige</a><br>
-        <a class="gerarchia-livello-1">Friuli Venezia Giulia</a><br>
-        <a class="gerarchia-livello-1">Valle d'Aosta</a><br>
-        <a class="gerarchia-livello-1">Piemonte</a><br>
-        <a class="gerarchia-livello-1">Lombardia</a><br>
-        <a class="gerarchia-livello-1">Liguria</a><br>
+        <a class="gerarchia-livello-0" href="#">Località</a><br>
+        <a class="gerarchia-livello-1" href="#">Veneto</a><br>
+        <a class="gerarchia-livello-1" href="#">Trentino Alto-Adige</a><br>
+        <a class="gerarchia-livello-1" href="#">Friuli Venezia Giulia</a><br>
+        <a class="gerarchia-livello-1" href="#">Valle d'Aosta</a><br>
+        <a class="gerarchia-livello-1" href="#">Piemonte</a><br>
+        <a class="gerarchia-livello-1" href="#">Lombardia</a><br>
+        <a class="gerarchia-livello-1" href="#">Liguria</a><br>
 
-        <a class="gerarchia-livello-0">Alloggi</a><br>
-        <a class="gerarchia-livello-1">Hotel</a><br>
-        <a class="gerarchia-livello-1">Campeggi</a><br>
-        <a class="gerarchia-livello-1">Appartamenti</a><br>
-        <a class="gerarchia-livello-1">Offerte Speciali</a><br>
-        <a class="gerarchia-livello-1">Prenotazioni Online</a><br>
+        <a class="gerarchia-livello-0" href="#">Alloggi</a><br>
+        <a class="gerarchia-livello-1" href="#">Hotel</a><br>
+        <a class="gerarchia-livello-1" href="#">Campeggi</a><br>
+        <a class="gerarchia-livello-1" href="#">Appartamenti</a><br>
+        <a class="gerarchia-livello-1" href="#">Offerte Speciali</a><br>
+        <a class="gerarchia-livello-1" href="#">Prenotazioni Online</a><br>
 
-        <a class="gerarchia-livello-0">Info Viaggio</a><br>
-        <a class="gerarchia-livello-1">Come Raggiungere la zona</a><br>
-        <a class="gerarchia-livello-1">Agenzie Turistiche</a><br>
-        <a class="gerarchia-livello-1">Informazioni Utili</a><br>
-        <a class="gerarchia-livello-1">Crea la tua Vacanza</a><br>
+        <a class="gerarchia-livello-0" href="#">Info Viaggio</a><br>
+        <a class="gerarchia-livello-1" href="#">Come Raggiungere la zona</a><br>
+        <a class="gerarchia-livello-1" href="#">Agenzie Turistiche</a><br>
+        <a class="gerarchia-livello-1" href="#">Informazioni Utili</a><br>
+        <a class="gerarchia-livello-1" href="#">Crea la tua Vacanza</a><br>
 
         <a class="gerarchia-livello-0" href="attivita.html">Attrazioni e Attività</a><br>
         <a class="gerarchia-livello-1" href="#">Attrazioni Naturali</a><br>
-        <a class="gerarchia-livello-1" href="attivita/gastronomia/#">Gastronomia</a><br>
-        <a class="gerarchia-livello-1" href="attivita/sport.html">Sport</a><br>
-        <a class="gerarchia-livello-2" href="attivita/sport/trekking.html">Trekkine</a><br>
-        <a class="gerarchia-livello-2" href="attivita/sport/bici.html">Bici</a><br>
-        <a class="gerarchia-livello-2" href="attivita/sport/golf.html">Golf</a><br>
-        <a class="gerarchia-livello-2" href="attivita/sport/speleologia.html">Speleologia</a><br>
-        <a class="gerarchia-livello-2" href="attivita/sport/calcio.html">Calcio</a><br>
+        <a class="gerarchia-livello-1" href="#">Gastronomia</a><br>
+        <a class="gerarchia-livello-1" href="#">Sport</a><br>
+        <a class="gerarchia-livello-2" href="#">Trekking</a><br>
+        <a class="gerarchia-livello-2" href="#">Bici</a><br>
+        <a class="gerarchia-livello-2" href="#">Golf</a><br>
+        <a class="gerarchia-livello-2" href="#">Speleologia</a><br>
+        <a class="gerarchia-livello-2" href="#">Calcio</a><br>
 
-        <a class="gerarchia-livello-1">Mare</a><br>
+        <a class="gerarchia-livello-1" href="#">Mare</a><br>
         <a class="gerarchia-livello-1" href="attivita/montagna.html">Montagna</a><br>
         <a class="gerarchia-livello-2" href="attivita/montagna/dolomiti.html">Dolomiti</a><br>
-        <a class="gerarchia-livello-2" href="attivita/montagna/tirolo.html">Tirolo</a><br>
-        <a class="gerarchia-livello-2" href="attivita/montagna/alpi-graie.html">Alpi Graie</a><br>
-        <a class="gerarchia-livello-2" href="attivita/montagna/alpi-marittime.html">Alpi Marittime</a><br>
+        <a class="gerarchia-livello-2" href="#">Tirolo</a><br>
+        <a class="gerarchia-livello-2" href="#">Alpi Graie</a><br>
+        <a class="gerarchia-livello-2" href="#">Alpi Marittime</a><br>
 
-        <a class="gerarchia-livello-1" href="attivita/lago.html">Lago</a><br>
-        <a class="gerarchia-livello-2" href="attivita/lago/lago-maggiore.html">Lago Maggiore</a><br>
-        <a class="gerarchia-livello-2" href="attivita/lago/lago-di-como.html">Lago di Como</a><br>
-        <a class="gerarchia-livello-2" href="attivita/lago/lago-iseo.html">Lago d'Iseo</a><br>
-        <a class="gerarchia-livello-2" href="attivita/lago/lago-di-garda.html">Lago di Garda</a><br>
+        <a class="gerarchia-livello-1" href="#">Lago</a><br>
+        <a class="gerarchia-livello-2" href="#">Lago Maggiore</a><br>
+        <a class="gerarchia-livello-2" href="#">Lago di Como</a><br>
+        <a class="gerarchia-livello-2" href="#">Lago d'Iseo</a><br>
+        <a class="gerarchia-livello-2" href="#">Lago di Garda</a><br>
 
-        <a class="gerarchia-livello-1">Tempo Libero</a><br>
-        <a class="gerarchia-livello-2">Zoo</a><br>
-        <a class="gerarchia-livello-2">Parchi divertimento</a><br>
+        <a class="gerarchia-livello-1" href="#">Tempo Libero</a><br>
+        <a class="gerarchia-livello-2" href="#">Zoo</a><br>
+        <a class="gerarchia-livello-2" href="#">Parchi divertimento</a><br>
 
-        <a class="gerarchia-livello-0">Da Visitare</a><br>
-        <a class="gerarchia-livello-1">Siti Archeologici</a><br>
-        <a class="gerarchia-livello-1">Musei e Collezini</a><br>
-        <a class="gerarchia-livello-1">Chiese</a><br>
-        <a class="gerarchia-livello-1">Monumenti</a><br>
-        <a class="gerarchia-livello-1">Parchi e Giardini</a><br>
-        <a class="gerarchia-livello-1">Piazze</a><br>
+        <a class="gerarchia-livello-0" href="#">Da Visitare</a><br>
+        <a class="gerarchia-livello-1" href="#">Siti Archeologici</a><br>
+        <a class="gerarchia-livello-1" href="#">Musei e Collezini</a><br>
+        <a class="gerarchia-livello-1" href="#">Chiese</a><br>
+        <a class="gerarchia-livello-1" href="#">Monumenti</a><br>
+        <a class="gerarchia-livello-1" href="#">Parchi e Giardini</a><br>
+        <a class="gerarchia-livello-1" href="#">Piazze</a><br>
 
-        <a class="gerarchia-livello-0">Informazioni sul Territorio</a><br>
-        <a class="gerarchia-livello-1">Dove Siamo</a><br>
-        <a class="gerarchia-livello-1">La storia del Nord Italia</a><br>
-        <a class="gerarchia-livello-1">Culture e Dialetti</a><br>
+        <a class="gerarchia-livello-0" href="#">Informazioni sul Territorio</a><br>
+        <a class="gerarchia-livello-1" href="#">Dove Siamo</a><br>
+        <a class="gerarchia-livello-1" href="#">La storia del Nord Italia</a><br>
+        <a class="gerarchia-livello-1" href="#">Culture e Dialetti</a><br>
 
-        <a class="gerarchia-livello-0" href="../pagine/eventi.html">Eventi e News</a><br>
-        <a class="gerarchia-livello-1" href="eventi/manifestazioni.html">Manifestazioni</a><br>
+        <a class="gerarchia-livello-0" href="eventi.html">Eventi e News</a><br>
+        <a class="gerarchia-livello-1" href="#">Manifestazioni</a><br>
         <a class="gerarchia-livello-1" href="eventi/mostre.html">Mostre</a><br>
-        <a class="gerarchia-livello-1" href="eventi/fiere.html">Fiere</a><br>
+        <a class="gerarchia-livello-1" href="#">Fiere</a><br>
 
         <a class="gerarchia-livello-0" href="fotogallery.html">Fotogallery</a><br>
         <a class="gerarchia-livello-0" href="contacts.html">Contatti</a><br>
@@ -355,7 +360,7 @@
 <div class="container">
     <footer>
         <hr class="featurette-divider">
-        <p class="pull-right"><a href="../homepage.html">Top</a></p>
+        <p class="pull-right"><a href="#">Top</a></p>
 
         <p>© 2014, Delta Team <a href="../pagine/contacts.html">Contatti</a></p>
 
@@ -366,6 +371,5 @@
 <script src="../js/bootstrap.js"></script>
 <br>
 </body>
-
 
 </html>
