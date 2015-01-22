@@ -11,8 +11,8 @@
           content="Prototipo di sito turistico 'le bellezze del nord italia', come esempio di sito per l'esercitazione del corso di Web Design">
     <meta name="author" content="DeltaTeam">
     <!-- CSS -->
-    <link rel="stylesheet" href="../../../css/bootstrap.css">
-    <link rel="stylesheet" href="../../../css/personal.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/personal.css">
     <!-- Titolo -->
     <title>Prototipo di sito turistico</title>
 </head>
@@ -22,9 +22,9 @@
 <!-- Menu di navigazione -->
 <nav class="navbar-default" id="menu">
     <div class="col-lg-12 block-center img-responsive">
-        <img src="../../../img/1920x150.gif" class="img-responsive">
+        <img class="img-responsive" src="../img/1920x150.gif" >
     </div>
-
+    
     <div class="navbar-header hidden-print">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -57,8 +57,8 @@
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alloggi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../../alloggi.html">Homepage alloggi</a></li>
-                    <li><a href="../../alloggi/hotel.html">Hotel</a></li>
+                    <li><a href="alloggi.html">Homepage alloggi</a></li>
+                    <li><a href="alloggi/hotel.html">Hotel</a></li>
                     <li><a href="#">Campeggi</a></li>
                     <li><a href="#">Appartamenti</a></li>
                     <li><a href="#">Offerte Speciali</a></li>
@@ -74,20 +74,20 @@
                     <li><a href="#">Come Raggiungere la zona</a></li>
                     <li><a href="#">Agenzie Turistiche</a></li>
                     <li><a href="#">Informazioni Utili</a></li>
-                    <li><a href="../../crea-vacanza.html">Crea la tua Vacanza</a></li>
+                    <li><a href="crea-vacanza.html">Crea la tua Vacanza</a></li>
                 </ul>
             </li>
 
             <!-- Attività -->
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Attività<span
+            <li class="dropdown"><a href="attivita.html" class="dropdown-toggle" data-toggle="dropdown">Attività<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../../attivita.html">Homepage attività</a></li>
+                    <li><a href="attivita.html">Homepage attività</a></li>
                     <li><a href="#">Attrazioni Naturali</a></li>
                     <li><a href="#">Gastronomia</a></li>
                     <li><a href="#">Sport</a></li>
                     <li><a href="#">Mare</a></li>
-                    <li><a href="../montagna.html">Montagna</a></li>
+                    <li><a href="attivita/montagna.html">Montagna</a></li>
                     <li><a href="#">Lago</a></li>
                     <li><a href="#">Tempo Libero</a></li>
                 </ul>
@@ -122,15 +122,15 @@
             <li class="dropdown"><a href="eventi.html" class="dropdown-toggle" data-toggle="dropdown">Eventi<span
                     class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="../../eventi.html">Homepage eventi</a></li>
+                    <li><a href="eventi.html">Homepage eventi</a></li>
                     <li><a href="#">Manifestazioni</a></li>
-                    <li><a href="../../eventi/mostre.html">Mostre</a></li>
+                    <li><a href="eventi/mostre.html">Mostre</a></li>
                     <li><a href="#">Fiere</a></li>
                 </ul>
             </li>
 
             <!-- Fotogallery -->
-            <li><a href="../../fotogallery.html">Fotogallery</a></li>
+            <li><a href="fotogallery.html">Fotogallery</a></li>
 
             <!-- Login -->
             <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
@@ -252,8 +252,7 @@
                     <input type="text" class="form-control" placeholder="Cerca">
                 </div>
                 <!-- Pulsante di ricerca -->
-                <button type="submit" class="btn btn-default"><a
-                        href="../../risultati-ricerca.html">Ricerca</a>
+                <button type="submit" class="btn btn-default"><a href="risultati-ricerca.html">Ricerca</a>
                 </button>
             </form>
         </ul>
@@ -262,15 +261,12 @@
 
 </nav>
 
-
 <!-- Path -->
 <div class="row">
     <div class="col-lg-12">
         <ol class="breadcrumb">
-            <li><a href="../../../homepage.html">Home</a></li>
-            <li><a href="../../attivita.html">Attività</a></li>
-            <li><a href="../montagna.html">Montagna</a></li>
-            <li class="active">Dolomiti</li>
+            <li><a href="../homepage.html">Home</a></li>
+            <li class="active">Crea la tua vacanza</li>
         </ol>
     </div>
 </div>
@@ -280,42 +276,96 @@
     <div class="container col-lg-3 col-md-3 hidden-xs hidden-sm hidden-print">
     <div class="navbar-contestuale">
         <ul class="navbar navbar-text nav">
-
             <li>
-                <a href="dolomiti.html" class="text-white navbar-testo">-Dolomiti</a>
+                <a href="#" class="text-white navbar-testo">Località</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo">- Tirolo</a>
+                <a href="alloggi.html" class="text-white navbar-testo">Alloggi</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo">- Alpi Graie</a>
+                <a href="#" class="text-white navbar-testo">Info Viaggio</a>
+            </li>
+            
+            <li>
+                <a href="#" class="text-white navbar-testo sottomenu">- Come raggiungere la zona</a>
             </li>
             <li>
-                <a href="#" class="text-white navbar-testo">- Alpi Marittime</a>
+                <a href="#" class="text-white navbar-testo sottomenu">- Agenzie Turistiche</a>
+            </li>
+            <li>
+                <a href="#" class="text-white navbar-testo sottomenu">- Informazioni Utili</a>
+            </li>
+            <li>
+                <a href="crea-vacanza.html" class="text-white navbar-testo sottomenu">- Crea la tua Vacanza</a>
+            </li>
+            
+            <li>
+                <a href="attivita.html" class="text-white navbar-testo">Attività</a>
+            </li>
+            <li>
+                <a href="#" class="text-white navbar-testo ">Da Visitare</a>
+            </li>
+            <li>
+                <a href="#" class="text-white navbar-testo ">Info Territorio</a>
+            </li>
+            <li>
+                <a href="eventi.html" class="text-white navbar-testo ">Eventi</a>
+            </li>
+            <li>
+                <a href="fotogallery.html" class="text-white navbar-testo ">Fotogallery</a>
             </li>
 
         </ul>
     </div>
     </div>
-    
-<!-- Contenuto Pagina -->
-    <div class="container">
-        <div class="row">
-            <div class="contenuto-pagina text-right col-lg-9 col-md-9 col-sm-9 ">
-                <img class="img-responsive" src="../../../img/1024x512.gif">
-            </div>
+    <div class="container marketing col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <div align="center">
+            <h1>Crea la tua vacanza</h1>
+            <br>
         </div>
-    </div>
-</div>
-    
-<div class="container featurette"> 
-    <br>
+        <h3>Questo percorso guidato permette alll'utente la scelta delle destinazioni di interesse, delle attività preferite e dei migliori alberghi per creare la vacanza dei sogni.</h3>
+        <hr>
+        
+        <div class="container featurette">
     <div class="row featurette">
-        <div class="col-sm-12">
-          <h2 class="featurette-heading">Dolomiti</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br></p>
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="../img/300x300.gif" alt="Alberghi">
+        </div>
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Alberghi</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="alloggi.html" role="button">Scegli il tuo alloggio</a>
+              <br>
+              <div class="text-left lead">Alloggio scelto:</div> </p>
         </div>
     </div>
+
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="../img/300x300.gif" alt="Destinazioni">
+        </div>
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Destinazioni</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+    </div>
+      
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-sm-5">
+          <img class="featurette-image img-responsive" src="../img/300x300.gif" alt="Attrazioni e attività">
+        </div>
+        <div class="col-sm-7">
+          <h2 class="featurette-heading">Attrazioni e attività</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius libero nibh, posuere posuere turpis placerat non. Praesent sit amet ultrices lorem, ac rutrum nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur fringilla vehicula mi ut ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><a class="btn btn-default" href="#" role="button">Per saperne di più</a></p>
+        </div>
+    </div>
+    
+</div>
+        
+    
+    </div>
+    
 </div>
 
 <!-- Footer -->
@@ -324,13 +374,13 @@
         <hr class="featurette-divider">
         <p class="pull-right"><a href="#">Top</a></p>
 
-        <p>© 2014, Delta Team <a href="../../contacts.html">Contatti</a></p>
+        <p>© 2014, Delta Team <a href="contacts.html">Contatti</a></p>
 
     </footer>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="../../../js/bootstrap.js"></script>
+<script src="../js/bootstrap.js"></script>
 <br>
 </body>
 
